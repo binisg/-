@@ -10,3 +10,12 @@ function fpa() {
         alert("Το ποσοστό της έκπτωσης πρέπει να είναι μεγαλύτερο ή ίσο με το 0")
     }
 }
+
+let originalAmount = document.getElementById("original-price");
+
+originalAmount.addEventListener("keyup", function(event) {
+  if (originalAmount.keyCode === 13) {
+    originalAmount.preventDefault();
+    document.getElementById("submit-button").click();
+  }
+});
