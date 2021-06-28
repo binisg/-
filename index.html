@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://github.com/binisg/-/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <title>Υπολόγιση ΦΠΑ με JavaScript</title>
+</head>
+<body>
+     <div class="first-element-container">
+        <h1 class="first-element">Υπολογισμός<br /><span id="span-h1-first-element">ΦΠΑ<br /></span> με JavaScript</h1>
+        <div class="inputs">
+            <div class="first-input">
+                <label for="original-price"><h3 class="h3-in-calc" id="start-price">Τιμή:</h3></label>
+                <input type="number" id="original-price" name="original-price" required placeholder="Αρχική Τιμή">
+            </div>
+            <div class="second-input">
+                <label for="discount"><h3 class="h3-in-calc">Έκπτωση (%):</h3></label>
+                <input type="number" id="discount" name="discount" value="24" required placeholder="Έκπτωση">
+            </div>
+        </div>
+        <div class="final-price">
+            <div class="final-input-container">
+                <div class="final-input">
+                    <h2 class="h2-in-calc">Τελική<br /> Τιμή:</h2>
+                    <label for="final-price"></label>
+                    <input type="number" id="final-price" name="final-price">
+                </div>
+            </div>
+            <input type="button" onclick="fpa();" value="Υπολογισμός">
+        </div>
+    </div>
+    <script src="https://github.com/binisg/-/script.js"></script>
+</body>
+</html>
