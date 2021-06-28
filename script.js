@@ -14,8 +14,8 @@ function fpa() {
 let originalAmount = document.getElementById("original-price");
 
 originalAmount.addEventListener("keyup", function(event) {
-  if (originalAmount.keyCode === 13) {
-    originalAmount.preventDefault();
+  if (event.keyCode === 13) {
+    event.preventDefault();
     document.getElementById("submit-button").click();
   }
 });
