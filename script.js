@@ -4,10 +4,10 @@ function fpa() {
     let finalPrice = startPrice * (discountAmount / 100) + (startPrice * 1);
     document.getElementById("final-price").value = finalPrice;
     if(startPrice<=0) {
-        alert("Η αρχική τιμή πρέπει να είναι μεγαλύτερη από 0")
+        alert("Σφάλμα στο ποσό της αρχικής τιμής")
     }
     if(discountAmount<0) {
-        alert("Το ποσοστό της έκπτωσης πρέπει να είναι μεγαλύτερο ή ίσο με το 0")
+        alert("Σφάλμα στο ποσό του ποσοστού της έκπτωσης")
     }
 }
 
