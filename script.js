@@ -4,7 +4,7 @@ function fpa() {
     let startPrice = document.getElementById("original-price").value;
     let discountAmount = document.getElementById("discount").value;
     let finalPrice = startPrice * (discountAmount / 100) + (startPrice * 1);
-    document.getElementById("final-price").value = finalPrice.toFixed(2);    
+    document.getElementById("final-price").value = finalPrice.toFixed(2) + '€';    
   if((startPrice<0) && (discountAmount>0)) {
     alert("Σφάλμα στο ποσό της αρχικής τιμής");
     document.getElementById("final-price").value = '';
