@@ -1,7 +1,5 @@
 document.getElementById("final-price").readOnly = true;
 
-permissions-policy: interest-cohort=();
-
 function fpa() {
     let startPrice = document.getElementById("original-price").value;
     let discountAmount = document.getElementById("discount").value;
