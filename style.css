@@ -192,10 +192,10 @@ input[type=button] {
     text-align: center;
 }*/
 
-@media screen and (min-width: 1320px) {
-    /*#final-price {
-        right: 60px;
-    }*/
+@media screen and (min-width: 1125px) {
+    #final-price {
+        padding-left: 15px;
+    }
 }
 
 @media screen and (max-width: 850px) {
