@@ -198,6 +198,7 @@ input[type=button] {
     font-family: 'Manrope', sans-serif;
     display: block;
     margin: 30px auto 15px auto;
+    cursor: pointer;
 }
 
 /* Media Queries */
