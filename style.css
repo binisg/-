@@ -11,6 +11,7 @@ body {
     font-family: 'Manrope', sans-serif;
     background-color: rgb(32, 32, 32);
     color: white;
+    cursor: default;
 }
 
 br {
@@ -80,6 +81,7 @@ input[type=number]::-webkit-inner-spin-button {
     border: 0px solid white;
     border-radius: 3px;
     font-family: 'Manrope', sans-serif;
+    cursor: text;
 }
 
 .first-input input:focus {
@@ -114,6 +116,7 @@ input[type=number]::-webkit-inner-spin-button {
     border-radius: 3px;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
+    cursor: text;
 }
 
 .second-input input:focus {
@@ -143,7 +146,6 @@ input[type=number]::-webkit-inner-spin-button {
     height: 100%;
     padding: 30px;
     margin: 0 auto;
-    cursor: default!important;
 }
 
 /* Final Input Title Styling */
