@@ -1,3 +1,5 @@
+/* General Styling */
+
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +17,8 @@ br {
     display: none;
 }
 
+/* First Element Styling */
+
 .first-element-container {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,8 @@ br {
     width: 100%;
     height: 100%;
 }
+
+/* Title Styling */
 
 h1.first-element {
     font-size: 300%;
@@ -37,6 +43,8 @@ h1.first-element {
     margin: 0 10px 0 10px;
 }
 
+/* Inputs Styling */
+
 .inputs {
     display: flex;
     align-items: center;
@@ -48,6 +56,18 @@ h1.first-element {
     padding: 25px;
     height: 100%;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* First Two Inputs Title Styling */
+
+.h3-in-calc {
+    font-size: 175%;
+}
+
+/* First Input Styling */
 
 .first-input {
     display: flex;
@@ -70,9 +90,18 @@ h1.first-element {
     border: none;
 }
 
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+#original-price {
+    margin-left: 1.1em;
+    height: 3px;
+    padding: 15px 15px 15px 5px;
+    position: relative;
+    top: 2px;
+    height: 40px;
+    width: 140px;
+    font-size: 14pt;
 }
+
+/* Second Input Styling */
 
 .second-input {
     display: flex;
@@ -95,21 +124,6 @@ input[type=number]::-webkit-inner-spin-button {
     border: none;
 }
 
-.h3-in-calc {
-    font-size: 175%;
-}
-
-#original-price {
-    margin-left: 1.1em;
-    height: 3px;
-    padding: 15px 15px 15px 5px;
-    position: relative;
-    top: 2px;
-    height: 40px;
-    width: 140px;
-    font-size: 14pt;
-}
-
 #discount {
     margin-left: 1.1em;
     height: 3px;
@@ -121,6 +135,8 @@ input[type=number]::-webkit-inner-spin-button {
     font-size: 14pt;
 }
 
+/* Final Input Div Styling */
+
 .final-price {
     width: 100%;
     background-color: rgb(68, 68, 68);
@@ -129,21 +145,14 @@ input[type=number]::-webkit-inner-spin-button {
     margin: 0 auto;
 }
 
+/* Final Input Title Styling */
+
 .final-input h2 {
     font-size: 240%;
     margin: 0 auto 10px auto;
 }
 
-input[type=button] {
-    height: 50px;
-    width: 160px;
-    background-color: rgb(243, 243, 243);
-    color: rgb(37, 37, 37);
-    font-size: 20px;
-    font-family: 'Manrope', sans-serif;
-    display: block;
-    margin: 30px auto 15px auto;
-}
+/* Final Input Price Styling */
 
 .final-input {
     display: flex;
@@ -163,14 +172,6 @@ input[type=button] {
     position: relative;
 }
 
-.final-input input:focus {
-    outline: none;
-}
-
-.final-input input:hover {
-    border: none;
-}
-
 #final-price {
     height: 3px;
     padding: 15px 15px 15px 5px;
@@ -178,6 +179,21 @@ input[type=button] {
     font-size: 14pt;
     width: 200px;
 }
+
+/* Calculate Button Styling */
+
+input[type=button] {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    margin: 30px auto 15px auto;
+}
+
+/* Media Queries */
 
 @media screen and (min-width: 1125px) {
     #final-price {
