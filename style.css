@@ -193,9 +193,9 @@ input[type=button] {
 }
 
 @media screen and (min-width: 1320px) {
-    #final-price {
+    /*#final-price {
         right: 60px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 850px) {
