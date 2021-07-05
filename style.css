@@ -179,7 +179,7 @@ input[type=button] {
     width: 200px;
 }
 
-.updates {
+/*.updates {
     display: flex;
     justify-content: center;
 }
@@ -190,7 +190,7 @@ input[type=button] {
     font-size: calc(0.6em + 0.75vw);
     padding: 1em;
     text-align: center;
-}
+}*/
 
 @media screen and (min-width: 1320px) {
     /*#final-price {
@@ -221,9 +221,9 @@ input[type=button] {
         flex-direction: column;
     }
     
-    .updates-h2 {
+    /*.updates-h2 {
         font-size: calc(0.6em + 1vw);
-    }
+    }*/
 }
 
 @media screen and (max-width: 525px) {
