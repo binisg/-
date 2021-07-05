@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Υπολογισμός ΦΠΑ με JavaScript: Version 1.0.1 - Created by Giannis Binis-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,22 +19,22 @@
             <div class="first-input">
                 <label for="original-price"><h3 class="h3-in-calc" id="start-price">Τιμή:</h3></label>
                 <input type="number" id="original-price" name="original-price" required placeholder="Αρχική Τιμή">
-            </div>
+            </div><!--end.first-input-->
             <div class="second-input">
                 <label for="discount"><h3 class="h3-in-calc">Φόρος (%):</h3></label>
                 <input type="number" id="discount" name="discount" value="24" required placeholder="Έκπτωση">
-            </div>
-        </div>
+            </div><!--end.second-input-->
+        </div><!--end.inputs-->
         <div class="final-price">
             <div class="final-input-container">
                 <div class="final-input">
                     <label for="final-price"><h2 class="h2-in-calc">Τελική<br /> Τιμή:</h2></label>
                     <input type="number" id="final-price" name="final-price">
-                </div>
-            </div>
+                </div><!--end.final-input-->
+            </div><!--end.final-input-container-->
             <input type="button" id="submit-button" onclick="fpa();" value="Υπολογισμός">
-        </div>
-    </div>
+        </div><!--end.final-price-->
+    </div><!--end.first-element-container-->
     <script src="script.js"></script>
 </body>
 </html>
