@@ -204,7 +204,7 @@ input[type=button] {
 
 /* Media Queries */
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1165px) {
     #final-price {
         margin-left: 15px;
     }
