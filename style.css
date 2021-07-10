@@ -30,6 +30,11 @@ br {
     display: none;
 }
 
+input {
+    border: 0px solid white;
+    border-radius: 5px;
+}
+
 /* First Element Styling */
 
 .first-element-container {
@@ -91,8 +96,6 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .first-input input {
-    border: 0px solid white;
-    border-radius: 3px;
     font-family: 'Manrope', sans-serif;
     cursor: text;
 }
@@ -125,8 +128,6 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .second-input input {
-    border: 0px solid white;
-    border-radius: 3px;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
     cursor: text;
@@ -182,8 +183,6 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .final-input input {
-    border: 0px solid white;
-    border-radius: 3px;
     font-family: 'Manrope', sans-serif;
     position: relative;
 }
